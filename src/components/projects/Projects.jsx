@@ -16,7 +16,7 @@ const Projects = () => {
 			imageSrc: "projects/project.png",
 			description: "Responsive & Modern animated template for a church website",
 			skills: ["React", "Firestore"],
-			demo: "need to change to the new url",
+			demo: "https://churchapp.johnkayrous.com/",
 			source: "https://github.com/JohnKayrouss/Church_Template",
 		},
 		{
