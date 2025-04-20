@@ -1,6 +1,11 @@
 import React from "react";
 import css from "./experience.module.css";
 import html from "../../assets/skills/html.png";
+import nextjs from "../../assets/skills/Next.js.png";
+import typescript from "../../assets/skills/typescript-logo.png";
+import prisma from "../../assets/skills/prisma.png";
+import tailwind from "../../assets/skills/tailwind.png";
+import mongodb from "../../assets/skills/mongodb.png";
 import styleCastingSheet from "../../assets/skills/css.png";
 import react from "../../assets/skills/react.png";
 import redux from "../../assets/skills/redux.png";
@@ -12,16 +17,8 @@ import ecpi from "../../assets/history/ecpi.png";
 const Experience = () => {
 	const experiences = [
 		{
-			title: "HTML",
-			imageSrc: html,
-		},
-		{
-			title: "CSS",
-			imageSrc: styleCastingSheet,
-		},
-		{
-			title: "JavaScript",
-			imageSrc: javascript,
+			title: "NEXT.js",
+			imageSrc: nextjs,
 		},
 		{
 			title: "React",
@@ -32,13 +29,42 @@ const Experience = () => {
 			imageSrc: redux,
 		},
 		{
+			title: "TypeScript",
+			imageSrc: typescript,
+		},
+		{
+			title: "JavaScript",
+			imageSrc: javascript,
+		},
+		{
+			title: "prisma",
+			imageSrc: prisma,
+		},
+		{
+			title: "mongodb",
+			imageSrc: mongodb,
+		},
+		{
 			title: "REST",
 			imageSrc: rest,
 		},
 
 		{
+			title: "CSS",
+			imageSrc: styleCastingSheet,
+		},
+		{
+			title: "Tailwind",
+			imageSrc: tailwind,
+		},
+
+		{
 			title: "Figma",
 			imageSrc: figma,
+		},
+		{
+			title: "HTML",
+			imageSrc: html,
 		},
 	];
 	const workExperience = [
